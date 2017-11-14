@@ -1,0 +1,6 @@
+<%= form_for @task do |input| %>
+  Task: <%= input.text_field :task %>
+  Content: <%= input.text_field :content %>
+  Date: <%= input.text_field :date %>
+  <%= input.submit %>
+<% end %>
